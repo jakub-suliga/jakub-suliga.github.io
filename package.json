@@ -1,0 +1,9 @@
+{
+  "name": "jakub-suliga-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-blog.mjs",
+    "build:blog": "node scripts/build-blog.mjs"
+  }
+}

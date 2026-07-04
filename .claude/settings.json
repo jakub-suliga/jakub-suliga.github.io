@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls /Applications | grep -i chrom; which chromium chrome google-chrome 2>/dev/null; ls \"/Applications/Google Chrome.app/Contents/MacOS\" 2>/dev/null)",
+      "Read(//Applications/**)",
+      "Read(//Applications/Google Chrome.app/Contents/MacOS/**)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --screenshot=home-top.png --window-size=1440,2200 --hide-scrollbars file://__TRACKED_VAR__/index.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --screenshot=home-full.png --window-size=1440,5200 --hide-scrollbars file://__TRACKED_VAR__/index.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --screenshot=blog.png --window-size=1440,1800 --hide-scrollbars file://__TRACKED_VAR__/blog.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --screenshot=projects.png --window-size=1440,1800 --hide-scrollbars file://__TRACKED_VAR__/projects.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --screenshot=home-mobile.png --window-size=390,3000 --hide-scrollbars file://__TRACKED_VAR__/index.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --screenshot=home-pubs.png --window-size=1440,1600 --hide-scrollbars --virtual-time-budget=6000 'file://__TRACKED_VAR__/index.html#publications')",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --screenshot=home-writing.png --window-size=1440,1600 --hide-scrollbars --virtual-time-budget=6000 'file://__TRACKED_VAR__/index.html#writing')",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --disable-javascript --screenshot=new-home-full.png --window-size=1440,4800 --hide-scrollbars file://__TRACKED_VAR__/index.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --screenshot=new-home-top.png --window-size=1440,1000 --hide-scrollbars --virtual-time-budget=4000 file://__TRACKED_VAR__/index.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --screenshot=new-blog.png --window-size=1440,1700 --hide-scrollbars --virtual-time-budget=4000 file://__TRACKED_VAR__/blog.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --screenshot=new-projects.png --window-size=1440,1500 --hide-scrollbars --virtual-time-budget=4000 file://__TRACKED_VAR__/projects.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --disable-javascript --screenshot=new-home-mobile.png --window-size=390,3400 --hide-scrollbars file://__TRACKED_VAR__/index.html)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --headless --disable-gpu --screenshot=new-article.png --window-size=1440,1400 --hide-scrollbars --virtual-time-budget=4000 file://__TRACKED_VAR__/blog.html?post=leworldmodel)"
+    ]
+  }
+}

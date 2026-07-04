@@ -22,10 +22,12 @@ Then open `http://localhost:8080`.
 
 1. Copy `Blogs/leworldmodel.md` and rename the copy.
 2. Edit its frontmatter (`title`, `date`, `description`, `tags`, `slug`) and Markdown content.
-3. Run:
+3. To preview the new post locally, run:
 
 ```bash
 npm run build
 ```
 
-This regenerates `blog-data.js`. The new post then appears automatically on the homepage and the blog page. Put GIFs and images in `Blogs/assets/` and reference them with standard Markdown.
+This regenerates `blog-data.js` for the local preview. Put GIFs and images in `Blogs/assets/` and reference them with standard Markdown.
+
+After a push to the `main` branch, GitHub Actions runs the build automatically before deploying the website to GitHub Pages. Running the build locally is not required for deployment.

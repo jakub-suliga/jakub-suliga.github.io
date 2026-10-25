@@ -9,8 +9,8 @@
   --navy-dark: #10303c;
   --accent: #d84a3f;
   --accent-soft: rgba(216, 74, 63, .1);
-  --green: #b0392f;
-  --green-soft: rgba(216, 74, 63, .12);
+  --green: #256140;
+  --green-soft: rgba(37, 97, 64, .12);
   --line: #d9d1ba;
   --line-strong: #c3ba9e;
   --content: 1120px;
@@ -193,9 +193,9 @@ nav a:hover { color: var(--ink); text-decoration: none; }
 /* ---------- Publications ---------- */
 .publication {
   display: grid;
-  grid-template-columns: 72px minmax(0, 1fr);
-  gap: 1.5rem;
-  padding: 1.75rem;
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 1.25rem;
+  padding: 1.1rem 1.4rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: var(--card);
@@ -203,7 +203,7 @@ nav a:hover { color: var(--ink); text-decoration: none; }
   transition: box-shadow .2s ease, border-color .2s ease;
 }
 .publication:hover { box-shadow: var(--shadow-md); border-color: var(--line-strong); }
-.publication + .publication { margin-top: 1rem; }
+.publication + .publication { margin-top: .6rem; }
 .pub-year {
   font-size: .9rem;
   font-weight: 600;
@@ -212,19 +212,19 @@ nav a:hover { color: var(--ink); text-decoration: none; }
   padding-top: .15rem;
 }
 .pub-venue {
-  margin: 0 0 .5rem;
+  margin: 0 0 .3rem;
   font-size: .75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: .07em;
   color: var(--accent);
 }
-.publication h3 { font-size: 1.2rem; font-weight: 600; line-height: 1.35; margin: 0 0 .5rem; }
-.publication p { margin: 0; font-size: .95rem; color: var(--muted); }
+.publication h3 { font-size: 1.05rem; font-weight: 600; line-height: 1.35; margin: 0 0 .3rem; }
+.publication p { margin: 0; font-size: .9rem; line-height: 1.5; color: var(--muted); }
 .publication p strong { color: var(--ink); font-weight: 600; }
-.pub-links { display: flex; gap: .6rem; margin-top: 1.1rem; }
+.pub-links { display: flex; gap: .5rem; margin-top: .7rem; }
 .pub-links a {
-  padding: .35rem .8rem;
+  padding: .25rem .7rem;
   border: 1px solid var(--line-strong);
   border-radius: 999px;
   font-size: .8rem;
@@ -496,7 +496,7 @@ html.js .reveal.visible { opacity: 1; transform: none; }
   nav.subpage-nav { display: flex; position: static; flex-direction: row; padding: 0; border: 0; background: transparent; box-shadow: none; }
   .hero { grid-template-columns: 1fr; }
   .portrait-wrap { display: none; }
-  .publication { grid-template-columns: 1fr; gap: .4rem; padding: 1.4rem; }
+  .publication { grid-template-columns: 1fr; gap: .25rem; padding: 1rem 1.1rem; }
   .pub-year { padding-top: 0; }
   .timeline-item { grid-template-columns: 1fr; gap: .3rem; padding-left: 1.4rem; }
   .timeline-item time, .timeline-item > div, .timeline-item > p, .timeline-item > details { grid-column: 1; }

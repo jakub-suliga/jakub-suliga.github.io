@@ -18,7 +18,7 @@
       <div class="hero-copy reveal">
         <h1 class="hero-name">Jakub Suliga</h1>
         <p class="eyebrow">Machine Learning & Robotics · Karlsruhe</p>
-        <p class="hero-about">Hi, I’m <strong>Jakub Suliga</strong>. I am a Computer Science student and research assistant at the <a href="https://www.irl.iar.kit.edu" target="_blank" rel="noreferrer">KIT Intuitive Robots Lab</a> in Karlsruhe. My current research focuses on <em>world models for robotics</em>—learning representations of how the physical world evolves so robots can reason, plan and act within it.</p>
+        <p class="hero-about">Hi, I’m <strong>Jakub Suliga</strong>. I am an M.Sc. Computer Science student at KIT and a research assistant at the <a href="https://www.irl.iar.kit.edu" target="_blank" rel="noreferrer">KIT Intuitive Robots Lab</a> in Karlsruhe. My current research focuses on <em>world models for robotics</em>—learning representations of how the physical world evolves so robots can reason, plan and act within it.</p>
         <p class="intro">My broader interests include <strong>world models</strong>, <strong>robot learning</strong>, <strong>embodied AI</strong>, and <strong>vision-language-action models</strong>.</p>
         <div class="social-links" aria-label="Profiles">
           <a href="https://scholar.google.com/citations?user=UYpD6z8AAAAJ&hl=en" target="_blank" rel="noreferrer" aria-label="Google Scholar">
@@ -53,7 +53,15 @@
         <article class="publication reveal">
           <div class="pub-year">2026</div>
           <div>
-            <p class="pub-venue">arXiv · Robotics · 2026</p>
+            <p class="pub-venue">NeurIPS 2026 Robot Learning Workshop · Oral</p>
+            <h3>Few-Shot Residual Adaptation of Pretrained Latent World Models</h3>
+            <p><strong>Jakub Suliga</strong>, Pankhuri Vanjani, Nisarga Nilavadi, Wolfram Burgard, Rudolf Lioutikov</p>
+          </div>
+        </article>
+        <article class="publication reveal">
+          <div class="pub-year">2026</div>
+          <div>
+            <p class="pub-venue">CoRL · Robotics · 2026</p>
             <h3>SPARC: Reliable Spatial Annotations from Robot Demonstrations at Scale</h3>
             <p>Nils Blank, Paul Mattes, Maximilian Xiling Li, <strong>Jakub Suliga</strong>, Thomas Roth, Moritz Reuss, Pankhuri Vanjani, Rudolf Lioutikov</p>
             <div class="pub-links"><a href="https://arxiv.org/abs/2606.13497" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://intuitive-robots.github.io/sparc-labeling/" target="_blank" rel="noreferrer">Project ↗</a></div>
@@ -68,6 +76,22 @@
             <div class="pub-links"><a href="https://arxiv.org/abs/2606.12105" target="_blank" rel="noreferrer">Paper ↗</a><a href="https://intuitive-robots.github.io/DAM-VLA/" target="_blank" rel="noreferrer">Project ↗</a></div>
           </div>
         </article>
+        <article class="publication reveal">
+          <div class="pub-year">2026</div>
+          <div>
+            <p class="pub-venue">Human-in-the-Loop Learning · 2026</p>
+            <h3>Correct Robots Before They Make Mistakes: Proactive Human-in-the-Loop Intervention via Preference Learning</h3>
+            <p>Xinkai Jiang, Jing Jiang, Hongyi Zhou, Pankhuri Vanjani, Ahmad Baki, <strong>Jakub Suliga</strong>, Ge Li, Zhuoyue Li, Gerhard Neumann, Rudolf Lioutikov</p>
+          </div>
+        </article>
+        <article class="publication reveal">
+          <div class="pub-year">2026</div>
+          <div>
+            <p class="pub-venue">RSS 2026 Workshop on Dexterous Manipulation</p>
+            <h3>Touch Improves Learning Dexterous Grasping from Demonstration</h3>
+            <p>Niklas Leukroth, Pankhuri Vanjani, <strong>Jakub Suliga</strong>, Ken Nakahara, Rudolf Lioutikov, Roberto Calandra</p>
+          </div>
+        </article>
         <a class="all-link reveal" href="https://scholar.google.com/citations?user=UYpD6z8AAAAJ&hl=en" target="_blank" rel="noreferrer">View complete profile on Google Scholar <span>All publications ↗</span></a>
       </div>
     </section>
@@ -79,39 +103,38 @@
       </div>
       <div class="section-content timeline">
         <article class="timeline-item reveal">
-          <time>Nov 2023 — present</time>
+          <time>May 2025 — present</time>
           <div><h3>Research Assistant</h3><p><a href="https://www.irl.iar.kit.edu" target="_blank" rel="noreferrer">KIT Intuitive Robots Lab ↗</a></p></div>
           <details class="experience-details">
             <summary>View responsibilities</summary>
             <div class="experience-details-body">
-              <p>Research and engineering across real-robot learning, simulation and multimodal policies.</p>
+              <p>Research on world models, vision-language-action models and multimodal policies for real-robot manipulation (Prof. Rudolf Lioutikov).</p>
               <ul>
-                <li>Trained and evaluated XVLA in the ManiFeel simulation environment and trained tactile policies.</li>
-                <li>Worked with LeRobot, RoboCasa with GR00T, and LIBERO with XVLA.</li>
-                <li>Improved real-robot controllers and implemented client-server communication for robot control.</li>
-                <li>Worked with the FLOWER real-robot platform; set up and maintained robot systems, collected data, fixed integration issues, and trained and deployed policies.</li>
-                <li>Explored audio as an additional modality for real-robot models.</li>
-                <li>Currently contributing to IRL LeRobot and setting up LIBERO-MEM.</li>
+                <li>Trained and evaluated VLA models, world models and diffusion policies (X-VLA, GR00T N1.5, X-WAM, V-JEPA 2-AC, DUET-DINO) in simulation (LIBERO, RoboCasa, RoboTwin, RMBench, ManiFeel) and on real Franka robots.</li>
+                <li>Built a control proxy and client–server communication for Franka robot control and improved the lab’s real-robot controllers.</li>
+                <li>Set up and maintained the FLOWER real-robot platform end to end: data collection, integration fixes, and policy training and deployment.</li>
+                <li>Integrated tactile encoders into manipulation policies and evaluated them on offline datasets (RSS 2026 workshop); integrated a tactile simulation framework into Isaac Gym and Isaac Lab and explored audio as an input modality.</li>
+                <li>Co-wrote the DAM-VLA paper and contributed simulation experiments and evaluations; collected data and ran evaluations for SPARC.</li>
               </ul>
             </div>
           </details>
         </article>
         <article class="timeline-item reveal">
-          <time>Mai 2024 - April 2025</time>
+          <time>May 2024 — Apr 2025</time>
           <div><h3>Working Student · Software Development</h3><p><a href="https://www.vector.com/de/de/" target="_blank" rel="noreferrer">Vector Informatik ↗</a></p></div>
           <details class="experience-details">
             <summary>View responsibilities</summary>
             <div class="experience-details-body">
               <ul>
-                <li>Optimized the performance of Java applications.</li>
-                <li>Designed and implemented a custom Eclipse feature.</li>
+                <li>Contributed to the open-source Eclipse JDT, Eclipse Platform and Eclipse SWT projects.</li>
+                <li>Designed and implemented a custom Eclipse IDE feature; profiled (VisualVM) and optimized the performance of Java applications.</li>
                 <li>Investigated and fixed bugs in an Eclipse-based development environment.</li>
               </ul>
             </div>
           </details>
         </article>
         <article class="timeline-item reveal">
-          <time>Apr. 2024–Juli 2024</time>
+          <time>Apr 2024 — Jul 2024</time>
           <div><h3>Tutor for Software Engineering</h3><p>Karlsruhe Institute of Technology</p></div>
           <p>Guided students through practical software engineering coursework.</p>
         </article>
@@ -126,14 +149,14 @@
       </div>
       <div class="section-content timeline">
         <article class="timeline-item reveal">
-          <time>Oct 2026 — upcoming</time>
+          <time>Oct 2026 — present</time>
           <div><h3>M.Sc. Computer Science</h3><p>Karlsruhe Institute of Technology</p></div>
-          <p>Planned focus on machine learning, world models and robotics.</p>
+          <p>Focus on machine learning, world models and robotics.</p>
         </article>
         <article class="timeline-item reveal">
           <time>Oct 2022 — Sep 2026</time>
           <div><h3>B.Sc. Computer Science</h3><p>Karlsruhe Institute of Technology</p></div>
-          <p>Computer Science studies with a focus on machine learning, robotics and software engineering.</p>
+          <p>Thesis: <em>Few-Shot Residual Adaptation of Pretrained Latent World Models</em> (grade 1.0), accepted as an oral presentation at the NeurIPS 2026 Robot Learning Workshop.</p>
         </article>
       </div>
     </section>

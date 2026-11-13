@@ -222,7 +222,17 @@ nav a:hover { color: var(--ink); text-decoration: none; }
 .publication h3 { font-size: 1.05rem; font-weight: 600; line-height: 1.35; margin: 0 0 .3rem; }
 .publication p { margin: 0; font-size: .9rem; line-height: 1.5; color: var(--muted); }
 .publication p strong { color: var(--ink); font-weight: 600; }
-.pub-links { display: flex; gap: .5rem; margin-top: .7rem; }
+.pub-links { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .7rem; }
+.pub-badges { display: flex; flex-wrap: wrap; gap: .4rem; margin: .65rem 0 0; padding: 0; list-style: none; }
+.pub-badges li {
+  padding: .2rem .65rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--ink);
+  font-size: .78rem;
+  line-height: 1.45;
+}
+.pub-badges strong { color: var(--accent); font-weight: 600; }
 .pub-links a {
   padding: .25rem .7rem;
   border: 1px solid var(--line-strong);
